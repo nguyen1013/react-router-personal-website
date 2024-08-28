@@ -19,9 +19,9 @@ import { BiLogoTypescript } from "react-icons/bi";
 
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
+import Work1 from './assets/portfolio-1.jpg';
+import Work2 from './assets/portfolio-2.jpg';
+import Work3 from './assets/portfolio-3.jpg';
 import Work4 from './assets/project-4.jpeg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
@@ -215,13 +215,13 @@ export const resume = [
   // },
 ];
 
-export const skills = [
-  {
-    id: 1,
-    title: 'Html',
-    percentage: '25',
-  },
-];
+// export const skills = [
+//   {
+//     id: 1,
+//     title: 'Html',
+//     percentage: '25',
+//   },
+// ];
 
 export const mySkills = [
   {
@@ -283,6 +283,143 @@ export const mySkills = [
 ]
 
 export const portfolio = [
+  {
+    id: 1,
+    img: Work1,
+    title: 'Web development',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'mini-Reddit Web Application',
+      },
+
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Javascript, React, Redux',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://reddit-minimal-e2301514.netlify.app/',
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: Work2,
+    title: 'Web development',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Weather Forecast Web Application',
+      },
+
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, Javascript, CSS',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://www.cc.puv.fi/~e2301514/my-projects/weather-forecast%20(google-api)/',
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    img: Work3,
+    title: 'Brain Game',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Memory Game',
+      },
+
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, Javascript, CSS',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://www.cc.puv.fi/~e2301514/my-projects/memory-game-rev2',
+      },
+    ],
+  },
+
+  ];
+
+export const themes = [
+  {
+    id: 1,
+    img: Theme1,
+    color: 'hsl(252, 35%, 51%)',
+  },
+
+  {
+    id: 2,
+    img: Theme2,
+    color: 'hsl(4, 93%, 54%)',
+  },
+
+  {
+    id: 3,
+    img: Theme3,
+    color: 'hsl(271, 76%, 53%)',
+  },
+
+  {
+    id: 4,
+    img: Theme4,
+    color: 'hsl(214, 100%, 40%)',
+  },
+
+  {
+    id: 5,
+    img: Theme5,
+    color: 'hsl(43, 74%, 49%)',
+  },
+
+  {
+    id: 6,
+    img: Theme6,
+    color: 'hsl(339, 81%, 66%)',
+  },
+
+  {
+    id: 7,
+    img: Theme7,
+    color: 'hsl(80, 61%, 50%)',
+  },
+
+  {
+    id: 8,
+    img: Theme8,
+    color: 'hsl(19, 96%, 52%)',
+  },
+
+  {
+    id: 9,
+    img: Theme9,
+    color: 'hsl(88, 65%, 43%)',
+  },
+
+  {
+    id: 10,
+    img: Theme10,
+    color: 'hsl(42, 100%, 50%)',
+  },
+];
+
+export const portfolio_backup = [
   {
     id: 1,
     img: Work1,
@@ -445,68 +582,6 @@ export const portfolio = [
         desc: 'www.dibble.com',
       },
     ],
-  },
-];
-
-export const themes = [
-  {
-    id: 1,
-    img: Theme1,
-    color: 'hsl(252, 35%, 51%)',
-  },
-
-  {
-    id: 2,
-    img: Theme2,
-    color: 'hsl(4, 93%, 54%)',
-  },
-
-  {
-    id: 3,
-    img: Theme3,
-    color: 'hsl(271, 76%, 53%)',
-  },
-
-  {
-    id: 4,
-    img: Theme4,
-    color: 'hsl(214, 100%, 40%)',
-  },
-
-  {
-    id: 5,
-    img: Theme5,
-    color: 'hsl(43, 74%, 49%)',
-  },
-
-  {
-    id: 6,
-    img: Theme6,
-    color: 'hsl(339, 81%, 66%)',
-  },
-
-  {
-    id: 7,
-    img: Theme7,
-    color: 'hsl(80, 61%, 50%)',
-  },
-
-  {
-    id: 8,
-    img: Theme8,
-    color: 'hsl(19, 96%, 52%)',
-  },
-
-  {
-    id: 9,
-    img: Theme9,
-    color: 'hsl(88, 65%, 43%)',
-  },
-
-  {
-    id: 10,
-    img: Theme10,
-    color: 'hsl(42, 100%, 50%)',
   },
 ];
 

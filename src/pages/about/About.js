@@ -1,8 +1,6 @@
 /* eslint-disable array-callback-return */
 import React from "react";
-import Stats from "../../components/Stats";
 import Info from "../../components/Info";
-import Skills from "../../components/Skills";
 import MySkills from "../../components/MySkills";
 import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";

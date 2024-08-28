@@ -29,7 +29,11 @@ const PortfolioItem = ({img, title, details}) => {
 
                 <div>
                   <span className="item__title">{title}</span>
-                  <span className="item__details">{desc}</span>
+                  <span className="item__details">
+                    <a href={desc} target="_blank" rel="noreferrer">
+                      {desc}
+                    </a>
+                  </span>
                 </div>
               </li>   
             ))}    
