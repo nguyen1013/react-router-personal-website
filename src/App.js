@@ -1,52 +1,51 @@
-import React from 'react';
-import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route, BrowserRouter, Routes } 
-from "react-router-dom";
-import './App.css';
+import React from "react";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  BrowserRouter,
+  Routes,
+} from "react-router-dom";
 
-import Themes from './components/Themes';
-import Navbar from './components/Navbar';
-import Home from './pages/home/Home';
-import Portfolio from './pages/portfolio/Portfolio';
-import Contact from './pages/contact/Contact';
-import About from './pages/about/About';
+import "./App.css";
 
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path="/" element={<Root />}>
-//       <Route index element={<Home />} />
-//       <Route path="about" element={<About />} />
-//       <Route path="portfolio" element={<Portfolio />} />
-//       <Route path="contact" element={<Contact />} />
-//     </Route>
-//   )
-// );
+import Root from "./components/Root";
+import Themes from "./components/Themes";
+import Navbar from "./components/Navbar";
+import Home from "./pages/home/Home";
+import Portfolio from "./pages/portfolio/Portfolio";
+import Contact from "./pages/contact/Contact";
+import About from "./pages/about/About";
 
-// function Root() {
-//   return (
-//     <>
-//       <Navbar />
-//       <Outlet />
-//     </>
-//   );
-// }
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Root />}>
+      <Route index element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/contact" element={<Contact />} />
+    </Route>
+  )
+);
+
+function App() {
+  return <RouterProvider router={router} />;
+}
 
 // function App() {
-//   return <RouterProvider router={router} />;
+//   return (
+//     <BrowserRouter>
+//       <Navbar />
+//       <Themes />
+//       <Routes>
+//         <Route path="/" element={ <Home/> } />
+//         <Route path="/about" element={ <About/> } />
+//         <Route path="/portfolio" element={ <Portfolio/> } />
+//         <Route path="/contact" element={ <Contact/> } />
+//       </Routes>
+//     </BrowserRouter>
+//   );
 // }
-
-function App() {  
-  return (
-    <BrowserRouter>
-      <Navbar />
-      <Themes />
-      <Routes>
-        <Route path="/" element={ <Home/> } />
-        <Route path="/about" element={ <About/> } />
-        <Route path="/portfolio" element={ <Portfolio/> } />
-        <Route path="/contact" element={ <Contact/> } />
-      </Routes>
-    </BrowserRouter>
-  );
-}
 
 export default App;

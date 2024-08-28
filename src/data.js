@@ -129,31 +129,31 @@ export const personalInfo = [
   },
 ];
 
-export const stats = [
-  {
-    id: 1,
-    no: '12+',
-    title: 'Years of <br /> Experience',
-  },
+// export const stats = [
+//   {
+//     id: 1,
+//     no: '12+',
+//     title: 'Years of <br /> Experience',
+//   },
 
-  {
-    id: 2,
-    no: '97+',
-    title: 'Completed <br /> Projects',
-  },
+//   {
+//     id: 2,
+//     no: '97+',
+//     title: 'Completed <br /> Projects',
+//   },
 
-  {
-    id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
-  },
+//   {
+//     id: 3,
+//     no: '81+',
+//     title: 'Happy <br /> Customers',
+//   },
 
-  {
-    id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
-  },
-];
+//   {
+//     id: 4,
+//     no: '53+',
+//     title: ' Awards <br /> Won',
+//   },
+// ];
 
 export const resume = [
   // {
@@ -170,7 +170,7 @@ export const resume = [
     category: 'education',
     icon: <FaCertificate />,
     year: '2024',
-    title: 'Front-end engineer <span> Codecademy </span>',
+    title: 'Front-end Engineer <span> Codecademy </span>',
     href: '/certs/front-end.pdf',
     desc: 'HTML, CSS, Javascript, Git & GitHub, Web Design, React, Redux, Build Tools, Data Structures, Algorithms.',
   },
