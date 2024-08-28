@@ -2,13 +2,8 @@ import React from 'react';
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
-  FaFacebookF,
-  FaTwitter,
-  FaYoutube,
-  FaDribbble, 
-  FaGithub,
+  FaLinkedin,
   FaGithubSquare,
-  FaGithubAlt,
 } from 'react-icons/fa';
 
 import { FiSend } from 'react-icons/fi';
@@ -32,7 +27,6 @@ const Contact = () => {
           <div className="contact__info">
             <div className="info__item">
               <FaEnvelopeOpen className="info__icon" />
-
               <div>
                 <span className='info__title'>Mail me</span>
                 <h4 className="info__desc"><a href="mailto:nasongnguyen@gmail.com" className='info__desc-link' >nasongnguyen@gmail.com</a></h4>
@@ -41,38 +35,33 @@ const Contact = () => {
 
             <div className="info__item">
               <FaPhoneSquareAlt className="info__icon" />
-
               <div>
                 <span className='info__title'>Call me</span>
-                <h4 className="info__desc"><a href="tel:+358417213228" className='info__desc-link' >+358 41 721 3228</a></h4>
+                <h4 className="info__desc"><a href="tel:+358417213228" className='info__desc-link' >+358-417-213-228</a></h4>
               </div>
             </div>
 
             <div className="info__item">
-              <FaPhoneSquareAlt className="info__icon" />
-
+              <FaGithubSquare className="info__icon" />
               <div>
                 <span className='info__title'>My GitHub</span>
                 <h4 className="info__desc"><a href="https://github.com/nguyen1013" target='_blank' rel="noreferrer" className='info__desc-link' >https://github.com/nguyen1013</a></h4>
               </div>
             </div>
+
+            {/* <div className="info__item">
+              <FaLinkedin className="info__icon" />
+              <div>
+                <span className='info__title'>LinkedIn</span>
+                <h4 className="info__desc"><a href="https://www.linkedin.com/in/nguyen-nguyen-0a5402172/" target='_blank' rel="noreferrer" className='info__desc-link' >https://www.linkedin.com/in/nguyen-nguyen-0a5402172/</a></h4>
+              </div>
+            </div> */}
+            
           </div>
 
           {/* <div className="contact__socials">
-            <a href="https://facebook.com" className="contact__social-link">
-              <FaFacebookF />
-            </a>
-
-            <a href="https://twitter.com" className="contact__social-link">
-              <FaTwitter />
-            </a>
-
-            <a href="https://youtube.com" className="contact__social-link">
-              <FaYoutube />
-            </a>
-
-            <a href="https://dribbble.com" className="contact__social-link">
-              <FaDribbble />
+            <a href="https://www.linkedin.com/in/nguyen-nguyen-0a5402172/" className="contact__social-link">
+              <FaLinkedin  />
             </a>
           </div> */}
         </div>

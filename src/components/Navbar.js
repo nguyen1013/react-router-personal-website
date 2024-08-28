@@ -33,5 +33,3 @@ const Navbar = () => {
   )
 }
 export default Navbar
-
-// activeClassName='nav__link--active'
