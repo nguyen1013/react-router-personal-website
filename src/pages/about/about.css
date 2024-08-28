@@ -4,9 +4,12 @@ a {
 }
 
 .about__container,
-.info__list,
 .stats {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.info__list {
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .about__container {
@@ -15,12 +18,11 @@ a {
 
 .info__list {
   row-gap: 20px;
-  column-gap: 0;
   margin-bottom: 40px;
 }
 
 .section__subtitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--weight-600);
   margin-bottom: 30px;
   text-align: center;
