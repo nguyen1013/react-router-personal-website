@@ -270,7 +270,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Javascript, React, Redux',
+        desc: 'Javascript, React, Redux with Reddit API',
       },
       {
         icon: <FiExternalLink />,
@@ -294,7 +294,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'HTML, Javascript, CSS',
+        desc: 'HTML, Javascript, CSS with OpenWeather API and Google Places API',
       },
       {
         icon: <FiExternalLink />,
