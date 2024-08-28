@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import Info from "../../components/Info";
 import MySkills from "../../components/MySkills";
 import { resume } from "../../data";
