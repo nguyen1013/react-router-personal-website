@@ -28,11 +28,9 @@ const PortfolioItem = ({img, title, details}) => {
                 <span className="item__icon">{icon}</span>
 
                 <div>
-                  <span className="item__title">{title}</span>
+                  <span className="item__title">{title}</span>                  
                   <span className="item__details">
-                    <a href={desc} target="_blank" rel="noreferrer">
-                      {desc}
-                    </a>
+                    {title === 'Preview : ' ? <a href={desc} target="_blank" rel="noreferrer">{desc}</a> : <p>{desc}</p> }
                   </span>
                 </div>
               </li>   

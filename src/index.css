@@ -127,9 +127,9 @@
     margin: 65px auto 50px;
   }
 
-  .portfolio__container {
+  /* .portfolio__container {
     grid-template-columns: repeat(2, 1fr) !important;
-  }
+  } */
 
   .contact__container {
     row-gap: 48px;
@@ -207,9 +207,9 @@
     grid-template-columns: repeat(2, 1fr) !important;
   }
 
-  .portfolio__container {
+  /* .portfolio__container {
     grid-template-columns: 1fr !important;
-  }
+  } */
 
   .modal__list {
     grid-template-columns: 1fr !important;
