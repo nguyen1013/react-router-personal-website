@@ -33,10 +33,18 @@
   font-size: var(--small-font-size);
 }
 
+.info__title {
+  color: var(--title-color);
+}
+
 .contact__info .info__desc {
   font-family: var(--body-font);
   font-size: var(--small-font-size);
   font-weight: var(--weight-500);
+}
+
+.info__desc-link {
+  color: var(--text-color);
 }
 
 .contact__socials {

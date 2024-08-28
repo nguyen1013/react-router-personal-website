@@ -5,7 +5,10 @@ import {
   FaFacebookF,
   FaTwitter,
   FaYoutube,
-  FaDribbble
+  FaDribbble, 
+  FaGithub,
+  FaGithubSquare,
+  FaGithubAlt,
 } from 'react-icons/fa';
 
 import { FiSend } from 'react-icons/fi';
@@ -20,10 +23,10 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__title">Don't be Shy!</h3>
+          <h3 className="contact__title">Contact me</h3>
 
           <p className="contact__description">
-            Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+          If you're interested in hiring me, feel free to reach out. I'm always open to discussing new projects, creative ideas, or opportunities to contribute to your vision.
           </p>
 
           <div className="contact__info">
@@ -32,7 +35,7 @@ const Contact = () => {
 
               <div>
                 <span className='info__title'>Mail me</span>
-                <h4 className="info__desc">nasongnguyen@gmail.com</h4>
+                <h4 className="info__desc"><a href="mailto:nasongnguyen@gmail.com" className='info__desc-link' >nasongnguyen@gmail.com</a></h4>
               </div>
             </div>
 
@@ -41,12 +44,21 @@ const Contact = () => {
 
               <div>
                 <span className='info__title'>Call me</span>
-                <h4 className="info__desc">+358 41 721 3228</h4>
+                <h4 className="info__desc"><a href="tel:+358417213228" className='info__desc-link' >+358 41 721 3228</a></h4>
+              </div>
+            </div>
+
+            <div className="info__item">
+              <FaPhoneSquareAlt className="info__icon" />
+
+              <div>
+                <span className='info__title'>My GitHub</span>
+                <h4 className="info__desc"><a href="https://github.com/nguyen1013" target='_blank' rel="noreferrer" className='info__desc-link' >https://github.com/nguyen1013</a></h4>
               </div>
             </div>
           </div>
 
-          <div className="contact__socials">
+          {/* <div className="contact__socials">
             <a href="https://facebook.com" className="contact__social-link">
               <FaFacebookF />
             </a>
@@ -62,7 +74,7 @@ const Contact = () => {
             <a href="https://dribbble.com" className="contact__social-link">
               <FaDribbble />
             </a>
-          </div>
+          </div> */}
         </div>
 
         <form className="contact__form">
@@ -94,7 +106,7 @@ const Contact = () => {
 
         <div className="form__input-div">
           <textarea 
-            placeholder='Your Message'
+            placeholder={`Your Message\n(This feature is still under development)`}
             className="form__control textarea"
           >
           </textarea>

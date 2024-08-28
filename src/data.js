@@ -6,7 +6,17 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
+  FaCertificate,
+  FaReact,
+  FaCss3Alt,
+  FaPython,
+  FaJava,
+  FaLinux,
 } from 'react-icons/fa';
+
+import { FaSquareJs, FaC } from 'react-icons/fa6';
+import { BiLogoTypescript } from "react-icons/bi";
+
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.jpeg';
@@ -60,62 +70,62 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
-    description: 'Steve',
+    title: 'First Name: ',
+    description: 'Nguyen',
   },
 
   {
     id: 2,
-    title: 'Last Name : ',
-    description: 'Milner',
+    title: 'Last Name: ',
+    description: 'Nguyen Anh Song',
   },
 
-  {
-    id: 3,
-    title: 'Age : ',
-    description: '27 Years',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Age : ',
+  //   description: '27 Years',
+  // },
 
-  {
-    id: 4,
-    title: 'Nationality : ',
-    description: 'Tunisian',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Nationality : ',
+  //   description: 'Tunisian',
+  // },
 
   {
     id: 5,
-    title: 'Freelance : ',
+    title: 'Freelance: ',
     description: 'Available',
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
+    title: 'Address: ',
+    description: 'Vaasa, Finland',
   },
 
   {
     id: 7,
-    title: 'Phone : ',
-    description: '+21621184010',
+    title: 'Phone: ',
+    description: '+358417213228',
   },
 
   {
     id: 8,
-    title: 'Email : ',
-    description: 'you@mail.com',
+    title: 'Email: ',
+    description: 'nasongnguyen@gmail.com',
   },
 
-  {
-    id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
-  },
+  // {
+  //   id: 9,
+  //   title: 'Skype : ',
+  //   description: 'steve.milner',
+  // },
 
   {
     id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: 'Langages: ',
+    description: 'English',
   },
 ];
 
@@ -146,59 +156,63 @@ export const stats = [
 ];
 
 export const resume = [
-  {
-    id: 1,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
-  },
+  // {
+  //   id: 1,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: '2018 - PRESENT',
+  //   title: 'Web Developer <span> Envato </span>',
+  //   desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+  // },
 
   {
     id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    category: 'education',
+    icon: <FaCertificate />,
+    year: '2024',
+    title: 'Front-end engineer <span> Codecademy </span>',
+    href: '/certs/front-end.pdf',
+    desc: 'HTML, CSS, Javascript, Git & GitHub, Web Design, React, Redux, Build Tools, Data Structures, Algorithms.',
   },
 
   {
     id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    category: 'education',
+    icon: <FaCertificate />,
+    year: '2024',
+    title: 'Microsoft Certified: Azure Fundamentals <span> AZ-900 </span>',
+    href: '/certs/AZ-900.pdf',
+    desc: 'Cloud concepts, core Azure services, plus Azure management and governance features and tools',
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2023 - now',
+    href: 'https://www.vamk.fi/en',
+    title: 'Vaasa University of Applied Sciences <span> VAMK </span>',
+    desc: 'Bachelor of Engineering - Information Technology.',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2023 - now',
+    title: 'Codecademy',
+    href: 'https://www.codecademy.com/',
+    desc: 'Online learning platform for programming languages specialized web development, data science, and machine learning.',
   },
 
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
-  },
+  // {
+  //   id: 6,
+  //   category: 'education',
+  //   icon: <FaGraduationCap />,
+  //   year: '2009',
+  //   title: 'Bachelor Degree <span> Tunis High School </span>',
+  //   desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+  // },
 ];
 
 export const skills = [
@@ -207,49 +221,66 @@ export const skills = [
     title: 'Html',
     percentage: '25',
   },
+];
+
+export const mySkills = [
+  {
+    id: 1,
+    href: '/certs/front-end.pdf',
+    icon: <FaSquareJs />,
+    title: 'Javascript',
+  },
 
   {
     id: 2,
-    title: 'Javascript',
-    percentage: '89',
+    href: '/certs/typescript.pdf',
+    icon: <BiLogoTypescript />,
+    title: 'TypeScript',
   },
 
   {
     id: 3,
-    title: 'Css',
-    percentage: '70',
+    href: '/certs/React.pdf',
+    icon: <FaReact />,
+    title: 'React',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    href: '/certs/CSS.pdf',
+    icon: <FaCss3Alt />,
+    title: 'CSS',
   },
-
+  
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    href: '/certs/python3-intermediate.pdf',
+    icon: <FaPython />,
+    title: 'Python',
   },
-
+  
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    href: '/certs/java-intermediate.pdf',
+    icon: <FaJava />,
+    title: 'Java',
   },
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    href: '/certs/C.pdf',
+    icon: <FaC />,
+    title: 'C',
   },
-
+  
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    href: '/certs/linux-combine.pdf',
+    icon: <FaLinux />,
+    title: 'Linux',
   },
-];
+  
+]
 
 export const portfolio = [
   {
@@ -478,3 +509,5 @@ export const themes = [
     color: 'hsl(42, 100%, 50%)',
   },
 ];
+
+

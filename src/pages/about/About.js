@@ -1,18 +1,20 @@
 /* eslint-disable array-callback-return */
-import React from 'react';
-import Stats from '../../components/Stats';
-import Info from '../../components/Info';
-import Skills from '../../components/Skills';
-import { resume } from '../../data';
-import ResumeItem from '../../components/ResumeItem';
-import { FaDownload } from 'react-icons/fa';
-import CV from '../../assets/Nguyen-Cv.pdf';
-import './about.css';
+import React from "react";
+import Stats from "../../components/Stats";
+import Info from "../../components/Info";
+import Skills from "../../components/Skills";
+import MySkills from "../../components/MySkills";
+import { resume } from "../../data";
+import ResumeItem from "../../components/ResumeItem";
+import { FaDownload } from "react-icons/fa";
+import CV from "../../assets/Nguyen-Cv.pdf";
+import "./about.css";
+
 
 const About = () => {
   return (
     <main className="section container">
-      <section className='about'>
+      <section className="about">
         <h2 className="section__title">
           About <span>Me</span>
         </h2>
@@ -25,58 +27,79 @@ const About = () => {
               <Info />
             </ul>
 
-            <a href={CV} download='' className="button">Download CV
-              <span className='button__icon'>
-              <FaDownload />
-              </span></a>
+            <a href={CV} download="" className="button">
+              Download CV
+              <span className="button__icon">
+                <FaDownload />
+              </span>
+            </a>
           </div>
 
-          <div className="stats grid">
+          {/* <div className="stats grid">
             <Stats />
+          </div> */}
+        
+          <div className="about__info">
+            <h3 className="section__subtitle">Education & Certificates</h3>
+
+            <div className="resume__container grid">
+
+              <div className="resume__data">
+                {resume.map((val) => {
+                  if (val.category === "education") {
+                    return <ResumeItem key={val.id} {...val} />;
+                  }
+                })}
+              </div>
+            </div>
           </div>
+
         </div>
-      </section>
+        
+      </section>      
 
       <div className="separator"></div>
 
-      <section className='skills'>
+      {/* <section className="skills">
         <h3 className="section__subtitle subtitle__center">My Skills</h3>
 
         <div className="skills__container grid">
           <Skills />
         </div>
+      </section> */}
+
+      <section className="skills">
+        <h3 className="section__subtitle subtitle__center">My Skills</h3>
+
+        <div className="skills__container grid">
+          <MySkills />
+        </div>
       </section>
 
       <div className="separator"></div>
 
-      <section className="resume">
-        <h3 className="section__subtitle subtitle__center">
-          Experience & Education
-        </h3>
+      {/* <section className="resume">
+        <h3 className="section__subtitle subtitle__center">Education & Certificates</h3>
 
         <div className="resume__container grid">
           <div className="resume__data">
-            {resume.map((val) => {  
-              if (val.category ==='experience') {
-                return <ResumeItem key={val.id} {...val} />
+            {resume.map((val) => {
+              if (val.category === "experience") {
+                return <ResumeItem key={val.id} {...val} />;
               }
             })}
           </div>
 
           <div className="resume__data">
-            {resume.map((val) => {  
-              if (val.category ==='education') {
-                return <ResumeItem key={val.id} {...val} />
+            {resume.map((val) => {
+              if (val.category === "education") {
+                return <ResumeItem key={val.id} {...val} />;
               }
             })}
           </div>
         </div>
-        
-      </section>
-
-
-
+      </section> */}
     </main>
-  )
-}
-export default About
+  );
+};
+export default About;

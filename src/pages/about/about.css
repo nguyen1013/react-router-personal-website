@@ -1,19 +1,29 @@
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 .about__container,
 .info__list,
-.stats,
-.resume__container {
+.stats {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.about__container {
+  column-gap: 60px;
 }
 
 .info__list {
   row-gap: 20px;
-  margin-bottom: 32px;
+  column-gap: 0;
+  margin-bottom: 40px;
 }
 
 .section__subtitle {
   font-size: var(--h3-font-size);
   font-weight: var(--weight-600);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .info__list .info__title,
@@ -78,6 +88,15 @@
   row-gap: 48px;
 }
 
+.skills__icon {
+  text-align: center;
+  font-size: var(--bigger-font-size);
+}
+
+.skills__icon a {
+  color: var(--first-color);
+}
+
 .progress__circle {
   width: 120px;
   height: 120px;
@@ -100,8 +119,8 @@
 
 .skills__title {
   font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  font-weight: var(--weight-400);
+  font-size: var(--large-font-size);
+  font-weight: var(--weight-500);
   text-align: center;
   margin-top: 24px;
 }
@@ -112,7 +131,7 @@
 }
 
 .resume__item:not(:last-child) {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .resume__item::before {
@@ -147,7 +166,7 @@
 .resume__subtitle {
   font-size: var(--large-font-size);
   font-weight: var(--weight-600);
-  margin-block: 20px 10px;
+  margin-block: 15px 15px;
 }
 
 .resume__subtitle span {

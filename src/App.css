@@ -6,8 +6,8 @@
   /* Colors */
   /* HSL Color Mode(hue, saturation, lightness) */
   --first-color: hsl(214, 100%, 21%);
-  --title-color: hsl(0, 0%, 40%);
-  --text-color: hsl(0, 0%, 50%);
+  --title-color: hsl(0, 0%, 22%);
+  --text-color: hsl(0, 0%, 30%);
   --body-color: hsl(0, 0%, 100%);
   --container-color: hsl(0, 0%, 93%);
   --border-color: hsl(0, 0%, 87%);
@@ -17,15 +17,16 @@
   --body-font: 'Open Sans', sans-serif;
   --second-font: 'Poppins', sans-serif;
 
+  --bigger-font-size: 80px;
   --big-font-size: 56px;
   --h1-font-size: 50px;
   --h2-font-size: 32px;
   --h3-font-size: 24px;
-  --large-font-size: 18px;
-  --normal-font-size: 16px;
-  --small-font-size: 15px;
-  --smaller-font-size: 14px;
-  --tiny-font-size: 12px;
+  --large-font-size: 20px;
+  --normal-font-size: 18px;
+  --small-font-size: 16px;
+  --smaller-font-size: 15px;
+  --tiny-font-size: 14px;
 
   /* Font Weight */
   --weight-400: 400;
@@ -38,7 +39,7 @@
 .dark-theme {
   --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 80%);
-  --body-color: hsl(0, 0%, 7%);
+  --body-color: hsl(244, 19%, 15%);
   --container-color: hsl(0, 1%, 17%);
   --border-color: hsl(0, 0%, 15%);
 }
@@ -50,11 +51,11 @@
     --h1-font-size: 32px;
     --h2-font-size: 24px;
     --h3-font-size: 20px;
-    --large-font-size: 16px;
-    --normal-font-size: 15px;
-    --small-font-size: 14px;
-    --smaller-font-size: 13px;
-    --tiny-font-size: 11px;
+    --large-font-size: 18px;
+    --normal-font-size: 16px;
+    --small-font-size: 15px;
+    --smaller-font-size: 14px;
+    --tiny-font-size: 12px;
   }
 }
 
@@ -108,7 +109,7 @@ img {
 
 /* =========Reuseable CSS============ */
 .container {
-  max-width: 1140px;
+  max-width: 1200px;
   margin-inline: auto;
   padding-inline: 15px;
 }
