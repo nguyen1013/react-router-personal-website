@@ -3,7 +3,7 @@ import {
   FaUser,
   FaFolderOpen,
   FaEnvelopeOpen,
-  FaBriefcase,
+  // FaBriefcase,
   FaGraduationCap,
   FaCode,
   FaCertificate,
@@ -17,7 +17,7 @@ import {
 import { FaSquareJs, FaC } from 'react-icons/fa6';
 import { BiLogoTypescript } from "react-icons/bi";
 
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import { FiFileText, FiExternalLink } from 'react-icons/fi'; // FiUser, 
 
 
 import Work1 from './assets/portfolio-1.jpg';
