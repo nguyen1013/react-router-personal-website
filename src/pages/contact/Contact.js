@@ -49,13 +49,13 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* <div className="info__item">
+            <div className="info__item">
               <FaLinkedin className="info__icon" />
               <div>
                 <span className='info__title'>LinkedIn</span>
                 <h4 className="info__desc"><a href="https://www.linkedin.com/in/nguyen-nguyen-0a5402172/" target='_blank' rel="noreferrer" className='info__desc-link' >https://www.linkedin.com/in/nguyen-nguyen-0a5402172/</a></h4>
               </div>
-            </div> */}
+            </div>
             
           </div>
 
