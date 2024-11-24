@@ -19,7 +19,7 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            I am an Information Technology student specializing in embedded systems, with a strong passion for research in electronics and IoT. Alongside my focus on embedded systems, I have a solid background in software and web development. My programming skills include Python, C, Java, JavaScript, and TypeScript, with experience in libraries and frameworks like React, React Router, and Redux.
+            I am a second-year Information Technology student at Vaasa University of Applied Sciences, with a strong foundation in software programming and web development. Currently, I am focusing on embedded systems, with an emphasis on microcontrollers, electronics, and PCB design.
           </p>
 
           <Link to="/about" className="button">
