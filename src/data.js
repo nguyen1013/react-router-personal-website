@@ -18,6 +18,7 @@ import {
 import { FaSquareJs, FaC } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
 
+
 import { FiFileText, FiExternalLink } from "react-icons/fi"; // FiUser,
 
 import Work1 from "./assets/portfolio-1.jpg";
@@ -137,7 +138,6 @@ export const resume = [
   //   desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
   // },
 
-  
   {
     id: 4,
     category: "education",
@@ -158,7 +158,6 @@ export const resume = [
     desc: "HTML, CSS, Javascript, Git & GitHub, Web Design, React, Redux, Build Tools, Data Structures, Algorithms.",
   },
 
-
   {
     id: 2,
     category: "education",
@@ -176,7 +175,7 @@ export const resume = [
     year: "2023 - now",
     title: "Codecademy",
     href: "https://www.codecademy.com/",
-    desc: "Online learning platform for programming languages specialized web development, data science, and machine learning.",
+    desc: "Online learning platform for programming languages.",
   },
 
   // {
@@ -216,7 +215,7 @@ export const mySkills = [
     id: 7,
     href: "/certs/C.pdf",
     icon: <FaC />,
-    title: "C",
+    title: "C,  C++",
   },
 
   {
