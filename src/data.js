@@ -137,6 +137,14 @@ export const resume = [
   //   title: 'Web Developer <span> Vaasa </span>',
   //   desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
   // },
+  {
+    id: 5,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2025 - PRESENT',
+    title: 'Cisco Networking Academy <span> Cisco </span>',
+    desc: 'CCNA, Network Security',
+  },
 
   {
     id: 4,
