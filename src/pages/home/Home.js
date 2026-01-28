@@ -19,7 +19,7 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            I am a second-year Information Technology student at Vaasa University of Applied Sciences, with a strong foundation in software programming and web development. Currently, I am focusing on embedded systems, with an emphasis on microcontrollers, electronics, and PCB design.
+            I am currently a third-year student in Information Technology at Vaasa University of Applied Sciences, specialising in embedded systems. Currently, I am focusing on embedded systems, with an emphasis on microcontrollers, electronics, and PCB design.
           </p>
 
           <Link to="/about" className="button">
